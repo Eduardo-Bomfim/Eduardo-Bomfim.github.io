@@ -11,4 +11,66 @@
     --background-color: #0D0D0D;
     --text-color: #8B8C8C;
     --border-color: #F2F2F2;
+    --h1-size: 26px;
+    --p-size: 20px;
+
+}
+
+body{
+    background: var(--background-color);
+    height: 100vh;
+}
+
+.navbar{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    padding: 40px 4%;
+    background: var(--secondary-color);
+    font-size: var(--p-size);
+
+}
+
+header a{
+    color: var(--border-color);
+    text-decoration: none;
+}
+
+header a:hover{
+
+    color: var(--primary-color);
+    transform: scale(1.05);
+    transition: ease-in 0.5s;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-resume button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background: var(--border-color);
+    border: 0;
+    border-radius: 30px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+header .btn-resume button:hover{
+
+    transform: scale(1.1);
+    transition: ease-in 0.5s;
 }
