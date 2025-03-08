@@ -1,0 +1,14 @@
+/* Reset básico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #545759;
+    --secondary-color: #1A2226;
+    --background-color: #0D0D0D;
+    --text-color: #8B8C8C;
+    --border-color: #F2F2F2;
+}
